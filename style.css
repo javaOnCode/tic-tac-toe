@@ -1,0 +1,38 @@
+* {
+  box-sizing: border-box;
+  outline: none !important;
+}
+
+.gameContainer {
+  text-align: center;
+  font-family: cursive;
+}
+.cell {
+  width: 75px;
+  height: 75px;
+  border: 2px solid;
+  box-shadow: 0 0 0 2px;
+  cursor: pointer;
+  font-size: 45px;
+}
+.cellsContainer {
+  width: 200px;
+  margin: 0 auto;
+  display: grid;
+  grid-template-columns: repeat(3, auto);
+}
+h1,
+h2,
+button {
+  margin-left: 25px;
+}
+
+button {
+  padding: 8px 26px;
+  font-size: 24px;
+  font-weight: 500;
+  border: 2px solid black;
+  border-radius: 20px;
+  background-color: transparent;
+  color: black;
+}
